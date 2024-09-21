@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: userServer  # This matches the folder name in the Git repository
+  config:
+    import: "optional:configserver:http://localhost:9012"  # URL of the Config Server
